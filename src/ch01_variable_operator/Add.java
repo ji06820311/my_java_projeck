@@ -22,6 +22,6 @@ public class Add {
         z = x * y ;
 
         message = x+" 곱하기 "+ y + "는(은)"+ z +" 입니다 ";
-        System.out.println(message);
+        System.out.println(message );
     }
 }
