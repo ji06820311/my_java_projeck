@@ -10,7 +10,7 @@ public class Add2 {
         a = 3;  //정수(int) 대입
         b = 4;
         c = 5;
-        d = 2 * a + 3 * b - c;
+        d = 2*a + 3*b - c;
 
         System.out.println("a = 3");  // 정수(int) 그니깐 변수 값 출력
         System.out.println("b = 4");
