@@ -13,8 +13,8 @@ public class MyBox {
         area = width * height;
         perimeter = 2.0 * (width + height);
 
-        System.out.println("사각형의 넓이: "+ area);     //변수 실수(double) 결과 출력
-        System.out.println("사각형의 둘레: "+ perimeter);
+        System.out.println("사각형의 넓이: " + area);     //변수 실수(double) 결과 출력
+        System.out.println("사각형의 둘레: " + perimeter);
 
 
 
