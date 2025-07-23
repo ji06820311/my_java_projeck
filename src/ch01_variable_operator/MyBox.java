@@ -15,8 +15,5 @@ public class MyBox {
 
         System.out.println("사각형의 넓이: " + area);     //변수 실수(double) 결과 출력
         System.out.println("사각형의 둘레: " + perimeter);
-
-
-
     }
 }
