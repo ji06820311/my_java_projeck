@@ -52,6 +52,12 @@ public class TernaryOperator {
         message = number % 2 ==0? "짝수": "홀수";
         System.out.println(message);
 
+        int age =18;
+        boolean hasID = true;
+        boolean isMember = false;
+        message = age>=20 && hasID? "입장가능" : isMember? "입장 가능" : "입장 불가";
+        System.out.println(message);
+
 
 
 
