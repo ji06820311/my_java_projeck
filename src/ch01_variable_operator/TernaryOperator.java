@@ -58,11 +58,8 @@ public class TernaryOperator {
         message = age>=20 && hasID? "입장가능" : isMember? "입장 가능" : "입장 불가";
         System.out.println(message);
 
-
-
-
-
-
-
+        int old = 18;
+        String massage = old >= 18? "성인" : "미성년자";
+        System.out.println(massage);
     }
 }
