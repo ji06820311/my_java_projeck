@@ -17,6 +17,5 @@ public class ForIf01 {
         System.out.println("sum0 :" + sum0);
         System.out.println("sum1 :" + sum1);
         System.out.println("sum2 :" + sum2);
-
     }
 }
