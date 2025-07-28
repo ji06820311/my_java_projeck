@@ -6,6 +6,7 @@ public class ForTest01 {
         for (int i = 1; i < 10; i++) {
             String message = a +  "*"  + i +  "=" + (a*i);
             System.out.println(message);
+
         }
     }
 }
