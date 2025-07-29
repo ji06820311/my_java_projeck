@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class WhileTest4 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+
         int total = 0;  // 합계
         int count = 0;  // 횟수
 
