@@ -6,17 +6,13 @@ public class While02 {
         int odd = 0, even = 0;
         while (i < 11) {
             if (i % 2 == 0) {
-                even += 1;
-
+                even += 6;
             } else {
-                odd += 1;
-
+                odd += 5;
             }
             i++;
-
-            System.out.println("홀수의 총합 :" + odd);
-            System.out.println("짝수의 총합 :" + even);
         }
-
+        System.out.println("홀수의 총합 :" + odd);
+        System.out.println("짝수의 총합 :" + even);
     }
 }
