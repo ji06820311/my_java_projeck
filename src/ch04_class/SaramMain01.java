@@ -2,6 +2,7 @@ package ch04_class;
 
 public class SaramMain01 {
     public static void main(String[] args) {
+
         // 단계 2 : 객체 생성
         // 클래스이름 객체이름 = new 생성자이름(); !반드시 이름이 같아야만함
         Saram01 yusin = new Saram01();
