@@ -9,7 +9,7 @@ public class MovieMain01 {
         fantasti4.name = "fantasti4";
         fantasti4.director ="Matt Shakman";
         fantasti4.time = 114;
-        fantasti4.money = 11.000;
+        fantasti4.money = 13.000;
 
         //단계4 : 객체의 맴버 변수의 값을 출력
         System.out.println("영화 이름 :" + fantasti4.name);
@@ -17,7 +17,7 @@ public class MovieMain01 {
         System.out.println("영화 시간 :" + fantasti4.time);
         System.out.println("영화 가격 :" + fantasti4.money);
 
-        String message = fantasti4.showMoenyinfo();
+        String message = fantasti4.showMoneyinfo();
         System.out.println(message);
 
         message = fantasti4.showMovieinfo();
