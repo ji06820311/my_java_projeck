@@ -10,34 +10,40 @@ public class Movie03 {
     public void setName(String name) {
         this.name = name;
     }
+
     //getName(읽기)
     public String getName() {
         return name;
     }
+
     // setTime(쓰기)
     public void setTime(int time) {
         this.time = time;
     }
+
     // getTime(읽기)
     public int getTime() {
         return time;
     }
 
     // setDirector(쓰기)
-    public void setDirector(String director){
+    public void setDirector(String director) {
         this.director = director;
     }
+
     //getDirector(일기)
-    public String getDirector(){
+    public String getDirector() {
         return director;
     }
+
     //setMoney(쓰기)
-    public void setMoney(double money){
+    public void setMoney(double money) {
         this.money = money;
     }
+
     //getMoney(읽기)
-    public double getMoney(){
-        return  money;
+    public double getMoney() {
+        return money;
     }
 
 
