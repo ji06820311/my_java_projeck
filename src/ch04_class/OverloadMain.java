@@ -12,5 +12,15 @@ public class OverloadMain {
 
         int resiut = obj.Add(a, b,c);
         System.out.println("반환 결과 :" + resiut);
+
+        a = 100;
+        b = 200;
+        obj.Add(a,b);
+
+        x = 5.5 ;
+        y = 3.3 ;
+        obj.Add(x,y);
+
+        obj.Add(a,x);
     }
 }
