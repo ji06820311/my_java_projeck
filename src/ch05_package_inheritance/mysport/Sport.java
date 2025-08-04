@@ -1,6 +1,6 @@
 package ch05_package_inheritance.mysport;
 
-public class Sport extends SportMain {
+public class Sport {
     private String name;
     private int entry;
 
@@ -11,6 +11,6 @@ public class Sport extends SportMain {
 
 
     protected void showInfo() {
-        System.out.println(name+" 경기는 "+entry+" 명의 엔트리로 구성됩니다");
+        System.out.println(name+" 경기는 "+this.entry+" 명의 엔트리로 구성됩니다");
     }
 }

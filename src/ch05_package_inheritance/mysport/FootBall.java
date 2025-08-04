@@ -13,7 +13,7 @@ public class FootBall extends Sport {
 
     public void display() {
         super.showInfo();
-        System.out.println(halves+"개의 하프타임으로 구성이 되며,"+ golas + "골이 들어갔습니다!");
+        System.out.println(this.halves+"개의 하프타임으로 구성이 되며,"+this.golas + " 골이 들어갔습니다!");
         System.out.println();
     }
 }

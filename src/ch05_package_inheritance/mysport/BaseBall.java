@@ -14,7 +14,7 @@ public class BaseBall extends Sport {
 
     public void display() {
         super.showInfo();
-        System.out.println(innings+"개의 이닝으로 구성되며, 타율"+hitrate+"를 기록하였습니다");
+        System.out.println(this.innings+"개의 이닝으로 구성되며, 타율"+this.hitrate+"를 기록하였습니다");
         System.out.println();
     }
 }
