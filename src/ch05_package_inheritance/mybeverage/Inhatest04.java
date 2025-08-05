@@ -1,5 +1,7 @@
 package ch05_package_inheritance.mybeverage;
 
+import ch05_package_inheritance.general.Beverage03;
+
 public class Inhatest04 {
     public static void main(String[] args) {
         //클래스이름 객체이름 = new 생성자이름();
@@ -14,6 +16,18 @@ public class Inhatest04 {
         //단, 강등을 하게 되면 서브 클래스 내의 변수와 매소드를 접근할 수 있습니다.
         Americano04 ame =(Americano04)beverage01;  // 강등
         ame.sipAmericano();
+
+        Beverage04 beverage02 = new Esperseeo04("에소프레소", 5000.0,2);
+        beverage02.showInfo();
+
+        Esperseeo04 esperseeo =(Esperseeo04) beverage02;
+        esperseeo.drinkEsperseeo();
+
+        Beverage04 beverage03 = new Latte04("라떼",6000.0,"아몬드 우유");
+        beverage03.showInfo();
+
+        Latte04 latte04 = (Latte04) beverage03;
+        latte04.enjoyLatte();
     }
 
 }

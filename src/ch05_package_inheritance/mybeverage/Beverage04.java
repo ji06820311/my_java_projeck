@@ -4,6 +4,10 @@ public class Beverage04 {
     private String name;
     private double price;
 
+    public String getName() {
+        return name;
+    }
+
     public Beverage04(){}
 
    protected void showInfo(){
