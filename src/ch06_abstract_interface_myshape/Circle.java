@@ -31,5 +31,7 @@ public class Circle extends Shape {
         String message = "면적 :" + super.area;
         System.out.println(message);
         System.out.println("둘레 :" + super.perimeter);
+        message = "원 중심 :(" + this.xpos + "," + this.ypos + ")";
+        System.out.println(message);
     }
 }
