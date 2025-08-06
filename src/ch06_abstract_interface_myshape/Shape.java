@@ -12,6 +12,12 @@ public abstract class Shape {
 
     public abstract double calcPerimeter();
 
+   // final 매소드는 오버라이딩을 하지 못하도록 막고자 할 때 사용합니다.(강제성 있음)
+    protected final void draw() {
+        System.out.println("라인 색상 :" + this.linecolor);
+        System.out.println("채우기 색상 :" + this.fillcolor);
+    }
+
     public abstract void display();
 
 

@@ -4,6 +4,11 @@ public class Triangle extends Shape {
     private double width; //너비
     private double height;  // 높이
 
+    //  @Override
+    // protected void draw() {
+    //    System.out.println("하하");
+    // }
+
     public Triangle(String linecolor, String fillcolor, double width, double height) {
         super(linecolor, fillcolor);
         this.width = width;
