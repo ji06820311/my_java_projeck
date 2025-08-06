@@ -1,4 +1,4 @@
-package ch06_abstract_interface_myshape;
+package ch06_abstract_interface.myshape;
 
 public class Circle extends Shape {
     private double radius; //반지름
