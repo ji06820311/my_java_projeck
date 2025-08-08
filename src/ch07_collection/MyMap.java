@@ -78,5 +78,14 @@ public class MyMap {
 
         System.out.println("요소 크기 :" + teamMap.size());
         System.out.println(teamMap);
+
+        teamMap.clear();
+
+
+        if (teamMap.isEmpty()) {      // is는 거의 100% boolean 참 과 거짓
+            System.out.println("teamMap is empty");
+        } else {
+            System.out.println("teaMap is not empty");
+        }
     }
 }
